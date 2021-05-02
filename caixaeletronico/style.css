@@ -1,0 +1,85 @@
+body{
+    background-color:rgb(221, 189, 103);
+}
+.caixael{
+    background-color: rgb(177, 51, 51);
+    width: 250px;
+    height: 350px;
+    padding:10px;
+    margin: 0 auto;
+    border-radius: 10%;
+    border:2px solid rgb(12, 12, 12);
+}
+.titulo{
+    color:#fff;
+    width: 50%;
+    height: 10%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+p{
+    overflow: hidden;
+}
+
+.tela{
+    background-color: rgb(130, 223, 130);
+    color:rgb(8, 8, 8);
+    text-shadow: 1px 1px 2px rgb(122, 121, 121);
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    border:2px solid #000;
+    border-radius: 10%;
+}
+.teclado{
+    width:90%;
+    height: 45%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 20% 20% 20%;
+    background-color:rgb(134, 131, 131);
+    border-radius: 7%;
+    border:2px solid #000;
+}
+
+
+.botoes{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 95%;
+    margin-top:2px;
+    border-radius: 15%;
+    text-shadow: 1px 1px 1px rgb(170, 169, 169);
+
+}
+.botoes:hover{
+    font-weight: 600;
+    cursor:pointer;
+    background-color: rgb(136, 132, 132);
+    color:#000;
+    border:1px solid rgb(15, 15, 15);
+}
+.apagar{
+    background-color: rgb(126, 13, 13);
+}
+.entra{
+    background-color: rgb(22, 179, 35);
+}
+.reiniciar{
+    background-color: rgb(57, 66, 199);
+    grid-column-start: 2;
+
+}
